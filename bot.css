@@ -1,0 +1,105 @@
+#header {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    font-size: 70px;
+    top: -20px;
+    margin: 0%;
+}
+p{
+    margin: 0;
+}
+
+#kka {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    clear: both;
+}
+
+body {  
+    background-color: pink;
+}
+
+#bigbox {
+    width: 800px;
+    height: 350 px;
+    background-color: inherit;
+    padding-top: 5px;
+    padding-left: 10 px;
+    padding-right: 10px;
+    flex: row;
+
+}
+
+#bigbox2 {
+    width: 800px;
+    height: 350 px;
+    background-color: inherit;
+    padding-top: 220px;
+    padding-left: 10 px;
+    padding-right: 10px;
+
+}
+
+#Max {
+    height: 200px;
+    width: 250px;
+    border-radius: 9px;
+    background-color: black;
+    float: left;
+}
+
+#Jet {
+    height: 200px;
+    width: 250px;
+    border-radius: 9px;
+    background-color: black;
+    float: left;
+    margin-left: 25px;
+
+}
+
+#Tommy {
+    height: 200px;
+    width: 250px;
+    border-radius: 9px;
+    background-color: black;
+    float: right;
+    margin-left: 25;
+}
+#Bryce {
+    height: 200px;
+    width: 250px;
+    border-radius: 9px;
+    background-color: black;
+    background-image: url(https://i.imgur.com/vH2CXSV.png);
+    background-position: center;
+    float: left;
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+#Andrew {
+    height: 200px;
+    width: 250px;
+    border-radius: 9px;
+    background-color: black;
+    float: left;
+    margin-left: 25px;
+    padding-top: 10px;
+
+}
+
+#Aki {
+    height: 200px;
+    width: 250px;
+    border-radius: 9px;
+    background-color: black;
+    float: right;
+    margin-left: 25;
+    padding-top: 10px;
+    background-image: url(https://data.whicdn.com/images/274569644/original.gif);
+}
