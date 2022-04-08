@@ -1,14 +1,9 @@
 #header {
+    height: 5%;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    position: relative;
-    font-size: 70px;
-    top: -20px;
-    margin: 0%;
-}
-p{
-    margin: 0;
+    font-size: 50px;
 }
 
 #kka {
@@ -23,86 +18,42 @@ body {
 }
 
 #bigbox {
-    width: 800px;
-    height: 350 px;
+    width: 1000px;
+    height: 100%;
     background-color: inherit;
-    flex-wrap: wrap;
-    flex: row;
-    padding-top: 400px;
-
+    flex-direction: row;
+    display: inline-block;    
+    padding-left: 30px;
 }
-
-#Max {
-    height: 200px;
+button{
+    height: 250px;
     width: 250px;
     border-radius: 9px;
-    border: 6px solid green;
-    background-color: black;
-    background-image: url(https://i.imgur.com/ha9Dzyv.jpg);
+    border: 15px solid green;
+    box-shadow: 5px 10px 5px black;   
     background-position: center;
-    float: inline-start;
+    padding: 100px;
+    margin: 15px;
+    align-items: center;
 }
+#Max {
+    background-image: url(https://i.imgur.com/ha9Dzyv.jpg);}
 
 #Jet {
-    height: 200px;
-    width: 250px;
-    border-radius: 9px;
-    border: 6px solid green;
-    background-color: black;
     background-image: url(https://i.imgur.com/8Q6luNQ.png);
-    background-position: center;
-    float: left;
-    margin-left: 35px;
-
 }
 
 #Tommy {
-    height: 200px;
-    width: 250px;
-    border-radius: 9px;
-    background-color: black;
-    border: 6px solid green;
     background-image: url(https://i.imgur.com/VgICxtx.png);
-    background-position: center;
-    float: right;
-    margin-left: 35;
 }
 #Bryce {
-    height: 200px;
-    width: 250px;
-    border-radius: 9px;
-    border: 6px solid green;
-    background-color: black;
     background-image: url(https://i.imgur.com/wTPE7mW.png);
-    background-position: center;
-    float: left;
-    padding-top: 10px;
-    align-items: center;
-    text-align: center;
 }
 
 #Andrew {
-    height: 200px;
-    width: 250px;
-    border-radius: 9px;
-    border: 6px solid green;
-    background-color: black;
-    float: left;
     background-image: url(https://i.imgur.com/U1vOwFD.png);
-    background-position: center;
-    margin-left: 35px;
-    padding-top: 10px;
-
 }
 
 #Aki {
-    height: 200px;
-    width: 250px;
-    border-radius: 9px;
-    border: 6px solid green;
-    background-color: black;
-    float: right;
-    margin-left: 35;
-    padding-top: 10px;
     background-image: url(https://data.whicdn.com/images/274569644/original.gif);
 }
