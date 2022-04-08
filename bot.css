@@ -26,20 +26,9 @@ body {
     width: 800px;
     height: 350 px;
     background-color: inherit;
-    padding-top: 5px;
-    padding-left: 10 px;
-    padding-right: 10px;
+    flex-wrap: wrap;
     flex: row;
-
-}
-
-#bigbox2 {
-    width: 800px;
-    height: 350 px;
-    background-color: inherit;
-    padding-top: 220px;
-    padding-left: 10 px;
-    padding-right: 10px;
+    padding-top: 400px;
 
 }
 
@@ -47,17 +36,23 @@ body {
     height: 200px;
     width: 250px;
     border-radius: 9px;
+    border: 6px solid green;
     background-color: black;
-    float: left;
+    background-image: url(https://i.imgur.com/ha9Dzyv.jpg);
+    background-position: center;
+    float: inline-start;
 }
 
 #Jet {
     height: 200px;
     width: 250px;
     border-radius: 9px;
+    border: 6px solid green;
     background-color: black;
+    background-image: url(https://i.imgur.com/8Q6luNQ.png);
+    background-position: center;
     float: left;
-    margin-left: 25px;
+    margin-left: 35px;
 
 }
 
@@ -66,15 +61,19 @@ body {
     width: 250px;
     border-radius: 9px;
     background-color: black;
+    border: 6px solid green;
+    background-image: url(https://i.imgur.com/VgICxtx.png);
+    background-position: center;
     float: right;
-    margin-left: 25;
+    margin-left: 35;
 }
 #Bryce {
     height: 200px;
     width: 250px;
     border-radius: 9px;
+    border: 6px solid green;
     background-color: black;
-    background-image: url(https://i.imgur.com/vH2CXSV.png);
+    background-image: url(https://i.imgur.com/wTPE7mW.png);
     background-position: center;
     float: left;
     padding-top: 10px;
@@ -86,9 +85,12 @@ body {
     height: 200px;
     width: 250px;
     border-radius: 9px;
+    border: 6px solid green;
     background-color: black;
     float: left;
-    margin-left: 25px;
+    background-image: url(https://i.imgur.com/U1vOwFD.png);
+    background-position: center;
+    margin-left: 35px;
     padding-top: 10px;
 
 }
@@ -97,9 +99,10 @@ body {
     height: 200px;
     width: 250px;
     border-radius: 9px;
+    border: 6px solid green;
     background-color: black;
     float: right;
-    margin-left: 25;
+    margin-left: 35;
     padding-top: 10px;
     background-image: url(https://data.whicdn.com/images/274569644/original.gif);
 }
