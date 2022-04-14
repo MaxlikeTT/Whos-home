@@ -1,13 +1,20 @@
-<script>
-// readFile function is defined.
-const fs = require('fs')
+
+import { readFile } from 'fs';
+// readFile function is defined  
+
+readFile(test.txt, function (err, data){
   
-fs.readFile(FILE_LOCATION, function (err, data) {
-  if (err) throw err; //change to dont throw error, change border coolor -> red
-  if(data.includes('search string')){
-   console.log(data) //keep green, do nothing
-  }
-});
+  if (data.includes('test123454'))
+    document.getElementById("Tommy").style.border = "15px solid green"     //change border color - red
+
+  else
+    document.getElementById("Tommy").style.border = "15px solid red"     //change border color - red
+
+})
 
 
-</script>
+//HAS TO BE RUN FROM A SERVER. CAN'T BE RUN FROM FILE://C:/BOT.HTML
+
+//on bash..
+// npm install -g live-server // Install globally via npm
+// live-serverlive-server
